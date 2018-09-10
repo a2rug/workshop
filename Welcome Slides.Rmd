@@ -1,0 +1,82 @@
+---
+title: "A2RUG Workshop"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+class: center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Welcome to the R community!
+
+???
+
+This is the core content for the Ann Arbor R User Group Workshop — two sessions in which we provide hands-on training with the basics of the R environment, and overviews of some of the most widely-used packages.
+
+---
+class: inverse, center, middle
+
+## Requirements
+
+These lessons assume no prior knowledge of the skills or tools.
+
+---
+class: center, middle
+
+## R, RStudio, and RStudio Cloud
+
+R is a programming language that is especially powerful for data exploration, visualization, and statistical analysis.
+
+To interact with R we use RStudio — an **I**ntegrated **D**eveloper **E**nvironment.
+
+In this workshop we use RStudio Cloud, a cloud-hosted version of RStudio.
+
+<!-- Get R from the R project website [https://cloud.r-project.org/](https://cloud.r-project.org/). -->
+
+<!-- Get Rstudio from the RStudio website [https://www.rstudio.com/products/rstudio/](https://www.rstudio.com/products/rstudio/) -->
+
+---
+class: inverse, center, middle
+
+## Slack
+
+We'll use Slack to communicate during the workshop. The A2MADS slack group is also a great resource for hearing about R and other data-science related events, announcements, and receiving help with your code.
+
+Join the A2MADS slack group at [https://a2mads.herokuapp.com/](https://a2mads.herokuapp.com/).
+
+---
+class: center, middle
+
+## Sticky Notes
+
+You should have a pair of sticky notes of different colors (green and red). Use these sticky notes to signal the instructors if you have a question or need help, or if everything is fine. 
+
+If you've placed your green sticky on the top of your laptop, we'll assume that everything is okay; if you've put up your red sticky, one of the instructors will come to your station to assist you. Don't be afraid to ask for help! You're here to learn, and we want to make sure we're best able to help you do that.
+
+---
+class: inverse, center, middle
+
+## Contributing
+
+The original lesson plans were adapted from the [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/) projects.
+
+You can contribute to these lessons by clicking the Edit <i class="fa fa-edit"></i> button from any page.
+
+### Contributors
+
+Michelle Berry, Ellis Valentiner, Rob Weyant, Clayton Yochum, Geoffrey Hannigan, Andrew Moore
+
+---
+class: center, middle
+
+# Please go to https://rstudio.cloud
+
